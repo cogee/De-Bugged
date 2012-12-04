@@ -2,9 +2,9 @@
 
  // Connects to your Database 
 
- mysql_connect("your.hostaddress.com", "username", "password") or die(mysql_error()); 
+ $link = mysql_connect("localhost", "root", "root") or die(mysql_error()); 
 
- mysql_select_db("Database_Name") or die(mysql_error()); 
+ mysql_select_db("login") or die(mysql_error()); 
 
 
  //Checks if there is a login cookie
