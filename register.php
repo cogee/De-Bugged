@@ -2,7 +2,7 @@
 
  // Connects to your Database 
 
- $link = mysql_connect("localhost", "root", "root") or die(mysql_error()); 
+ $link = mysql_connect("De-Bugged.azurewebsites.net", "username", "password") or die(mysql_error()); 
 
  mysql_select_db("login") or die(mysql_error()); 
 
