@@ -2,7 +2,7 @@
 
  // Connects to your Database 
 
- mysql_connect("yjqvzm4kl6.database.windows.net,1433", "username", "password") or die(mysql_error()); 
+ mysql_connect("yjqvzm4kl6.database.windows.net,1433", "username", "H3ll0db1") or die(mysql_error()); 
 
  mysql_select_db("Database_Name") or die(mysql_error()); 
 
