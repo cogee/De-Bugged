@@ -1,7 +1,7 @@
  <?php 
  // Connects to your Database 
 
- $link = mysql_connect("De-Bugged.azurewebsites.net", "username", "password") or die(mysql_error()); 
+ $link = mysql_connect("yjqvzm4kl6.database.windows.net,1433", "username", "H3ll0db1") or die(mysql_error()); 
 
  mysql_select_db("login") or die(mysql_error()); 
 
